@@ -1,0 +1,258 @@
+{
+  "profile": "https://raw.githubusercontent.com/tdwg/camtrap-dp/refs/heads/main/camtrap-dp-profile.json",
+  "name": "ice-lapse-longtermmonitoring-guard1",
+  "title": "Deployment in Tethys bay - Mario Zucchelli Station- 2015",
+  "id": "7f60d428-c696-4e1a-bbee-d54038e3cb75",
+  "description": "Antarctica is a remote place, the continent is covered by ice and its surrounding coastal areas are frozen for the majority of the year. Due to its peculiarity the observation of the underwater organisms is particularly difficult, complicated by logistic factors. We present a long-term dataset consisting of 755 images acquired by using a non-invasive, autonomous imaging device and encompassing both the Antarctic daylight and dark periods, including the corresponding transition phases. All images have the same field of view showing the benthic fauna and part of the water column above, including fishes present in the monitored period. All the images are manually annotated after a visual inspection performed by expert biologists. The extended monitoring period and the annotated images make the dataset a valuable benchmark suitable for studying the dynamics of the long-term Antarctic underwater fauna as well as for developing and testing algorithms for automated image analysis focused on the recognition and classification of the Antarctic organisms and the automated analysis of their long-term dynamics.",
+  "homepage": "https://hdl.handle.net/20.500.12085/ee277578-a911-484d-a515-9c781d79aa91@7f60d428-c696-4e1a-bbee-d54038e3cb75",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Simone Marini",
+      "roles": [
+        "author"
+      ],
+      "email": "simone.marini@cnr.it",
+      "identifier": "https://orcid.org/0000-0003-0665-7815"
+    },
+    {
+      "title": "Simone Marini",
+      "roles": [
+        "annotator"
+      ],
+      "email": "simone.marini@cnr.it",
+      "identifier": "https://orcid.org/0000-0003-0665-7815"
+    },
+    {
+      "title": "Andrea Peirano",
+      "roles": [
+        "annotator"
+      ],
+      "email": "andrea.peirano@enea.it",
+      "identifier": "https://orcid.org/0000-0001-8847-1760"
+    },
+    {
+      "title": "Federico Bonofiglio",
+      "roles": [
+        "annotator"
+      ],
+      "email": "federico.bonofiglio@sp.ismar.cnr.it",
+      "identifier": "https://orcid.org/0000-0003-4085-9840"
+    },
+    {
+      "title": "Stefano Schiaparelli",
+      "roles": [
+        "annotator"
+      ],
+      "email": "stefano.schiaparelli@unige.it",
+      "identifier": "https://orcid.org/0000-0002-0137-3605"
+    },
+    {
+      "title": "Simone Marini",
+      "roles": [
+        "principalInvestigator"
+      ],
+      "email": "simone.marini@cnr.it",
+      "identifier": "https://orcid.org/0000-0003-0665-7815"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Image dataset acquired within the project \"ICE-LAPSE: Analysis of Antarctic benthos dynamics by using non-destructive monitoring devices and permanent stations, PNRA 2013/AZ1.16, funded by the Italian National Antarctic Program"
+    },
+    {
+      "title": "Sampling design methodology",
+      "path": "https://doi.org/10.1111/2041-210X.13898"
+    }
+  ],
+  "temporal": {
+    "start": "2017-01-23T23:15:14Z",
+    "end": "2017-11-15T19:44:38Z"
+  },
+  "resources": [
+    {
+      "name": "deployments",
+      "path": "deployments.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv"
+    },
+    {
+      "name": "media",
+      "path": "media.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv"
+    },
+    {
+      "name": "observations",
+      "path": "observations.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv"
+    }
+  ],
+  "project": {
+    "title": "Image dataset acquired within the project \"ICE-LAPSE: Analysis of Antarctic benthos dynamics by using non-destructive monitoring devices and permanent stations, PNRA 2013/AZ1.16, funded by the Italian National Antarctic Program",
+    "identifier": "7f60d428-c696-4e1a-bbee-d54038e3cb75",
+    "description": "Antarctica is a remote place, the continent is covered by ice and its surrounding coastal areas are frozen for the majority of the year. Due to its peculiarity the observation of the underwater organisms is particularly difficult, complicated by logistic factors. We present a long-term dataset consisting of 755 images acquired by using a non-invasive, autonomous imaging device and encompassing both the Antarctic daylight and dark periods, including the corresponding transition phases. All images have the same field of view showing the benthic fauna and part of the water column above, including fishes present in the monitored period. All the images are manually annotated after a visual inspection performed by expert biologists. The extended monitoring period and the annotated images make the dataset a valuable benchmark suitable for studying the dynamics of the long-term Antarctic underwater fauna as well as for developing and testing algorithms for automated image analysis focused on the recognition and classification of the Antarctic organisms and the automated analysis of their long-term dynamics.",
+    "samplingDesign": {
+      "description": "Sampling design and methods are described in the referenced publication.",
+      "citation": "https://doi.org/10.1111/2041-210X.13898"
+    }
+  },
+  "keywords": [
+    "Coastal seafloor",
+    "seafloor",
+    "Stand-alone metal frame lander",
+    "rgb"
+  ],
+  "taxa": [
+    {
+      "taxonID": "urn:lsid:marinespecies.org:taxname:172775",
+      "scientificName": "Odontaster validus",
+      "taxonRank": "subspecies",
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Asteroidea",
+      "order": "Valvatida",
+      "family": "Odontasteridae",
+      "genus": "Odontaster"
+    },
+    {
+      "taxonID": "urn:lsid:marinespecies.org:taxname:172650",
+      "scientificName": "Diplasterias brucei",
+      "taxonRank": "subspecies",
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Asteroidea",
+      "order": "Forcipulatida",
+      "family": "Asteriidae",
+      "genus": "Diplasterias"
+    },
+    {
+      "taxonID": "urn:lsid:marinespecies.org:taxname:123310",
+      "scientificName": "Odontaster",
+      "taxonRank": "subspecies",
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Asteroidea",
+      "order": "Valvatida",
+      "family": "Odontasteridae",
+      "genus": "Odontaster"
+    },
+    {
+      "taxonID": "urn:lsid:marinespecies.org:taxname:123200",
+      "scientificName": "Ophiuridae",
+      "taxonRank": "subspecies",
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Ophiuroidea",
+      "order": "Ophiurida",
+      "family": "Ophiuridae",
+      "genus": "nan"
+    },
+    {
+      "taxonID": "urn:lsid:marinespecies.org:taxname:160831",
+      "scientificName": "Sterechinus neumayeri",
+      "taxonRank": "subspecies",
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Echinoidea",
+      "order": "Camarodonta",
+      "family": "Echinidae",
+      "genus": "Sterechinus"
+    },
+    {
+      "taxonID": "urn:lsid:marinespecies.org:taxname:134569",
+      "scientificName": "Ammothea",
+      "taxonRank": "subspecies",
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Pycnogonida",
+      "order": "Pantopoda",
+      "family": "Ammotheidae",
+      "genus": "Ammothea"
+    },
+    {
+      "taxonID": "urn:lsid:marinespecies.org:taxname:197303",
+      "scientificName": "Neobuccinum eatoni",
+      "taxonRank": "subspecies",
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Gastropoda",
+      "order": "Neogastropoda",
+      "family": "Prosiphonidae",
+      "genus": "Neobuccinum"
+    },
+    {
+      "taxonID": "urn:lsid:marinespecies.org:taxname:939",
+      "scientificName": "Polynoidae",
+      "taxonRank": "subspecies",
+      "kingdom": "Animalia",
+      "phylum": "Annelida",
+      "class": "Polychaeta",
+      "order": "Phyllodocida",
+      "family": "Polynoidae",
+      "genus": "nan"
+    },
+    {
+      "taxonID": "nan",
+      "scientificName": "nan",
+      "taxonRank": "subspecies",
+      "kingdom": "nan",
+      "phylum": "nan",
+      "class": "nan",
+      "order": "nan",
+      "family": "nan",
+      "genus": "nan"
+    },
+    {
+      "taxonID": "urn:lsid:marinespecies.org:taxname:529672",
+      "scientificName": "Staurocucumis turqueti",
+      "taxonRank": "subspecies",
+      "kingdom": "Animalia",
+      "phylum": "Echinodermata",
+      "class": "Holothuroidea",
+      "order": "Dendrochirotida",
+      "family": "Cucumariidae",
+      "genus": "Staurocucumis"
+    },
+    {
+      "taxonID": "urn:lsid:marinespecies.org:taxname:234628",
+      "scientificName": "Trematomus newnesi",
+      "taxonRank": "subspecies",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Teleostei",
+      "order": "Perciformes",
+      "family": "Nototheniidae",
+      "genus": "Trematomus"
+    },
+    {
+      "taxonID": "urn:lsid:marinespecies.org:taxname:234566",
+      "scientificName": "Trematomus",
+      "taxonRank": "subspecies",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Teleostei",
+      "order": "Perciformes",
+      "family": "Nototheniidae",
+      "genus": "Trematomus"
+    },
+    {
+      "taxonID": "urn:lsid:marinespecies.org:taxname:934969",
+      "scientificName": "Flabegraviera mundata",
+      "taxonRank": "subspecies",
+      "kingdom": "Animalia",
+      "phylum": "Annelida",
+      "class": "Polychaeta",
+      "order": "Terebellida",
+      "family": "Flabelligeridae",
+      "genus": "Flabegraviera"
+    }
+  ]
+}
