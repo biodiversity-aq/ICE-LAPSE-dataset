@@ -206,11 +206,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 The dataset is made available under Creative Commons Attribution 4.0 International (CC-BY-4.0) license.
 
-## Contact
-
-For questions or issues, please contact:
-- Simone Marini: simone.marini@cnr.it
-
 ## Acknowledgments
 
 This dataset was collected at:
