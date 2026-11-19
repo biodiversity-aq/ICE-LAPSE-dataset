@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1134925339.svg)](https://doi.org/10.5281/zenodo.24368248)
+
 # ICE-LAPSE dataset
 
 Tools to publish the [ICE-LAPSE image dataset](https://doi.org/10.5281/zenodo.7318531)
