@@ -208,3 +208,19 @@ __marimo__/
 
 # Mac
 .DS_Store
+
+# JetBrains IDE
+.idea/
+
+# R session history
+.Rapp.history
+
+# ---- ICE-LAPSE project ----
+
+# Original dataset (~25 GB), downloaded from https://doi.org/10.5281/zenodo.7318531.
+# Only the instructions for getting it are committed; see data/raw/README.md.
+data/raw/*
+!data/raw/README.md
+
+# Temporary files from atomic writes of the Zenodo upload state and manifest.
+*.tmp
