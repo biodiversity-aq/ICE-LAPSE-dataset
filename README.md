@@ -6,6 +6,17 @@ Tools to publish the [ICE-LAPSE image dataset](https://doi.org/10.5281/zenodo.73
 as a [Camtrap-DP](https://camtrap-dp.tdwg.org/) package, and to deposit each
 annotated image on Zenodo with its own DOI.
 
+## Published dataset
+
+| Where | Link |
+|-------|------|
+| Camtrap-DP package on the IPT | https://cloud.gbif.org/eca/resource?r=ice-lapse |
+| Dataset on GBIF (DOI)         | https://doi.org/10.15468/3gqdpf |
+
+The Camtrap-DP tables in `data/camtrap-dp/` are published as a Camtrap-DP
+resource on the GBIF IPT. GBIF converts it automatically into a Darwin Core
+Archive during ingestion, and the dataset gets its GBIF DOI there.
+
 ## Overview
 
 ICE-LAPSE is a long-term monitoring dataset of Antarctic coastal benthic
@@ -171,6 +182,7 @@ including every image folder. Download the raw data first.
 If you use this dataset, please cite:
 
 - The dataset: ICE-LAPSE image dataset, https://doi.org/10.5281/zenodo.7318531
+- The Camtrap-DP dataset on GBIF: https://doi.org/10.15468/3gqdpf
 - The dataset description paper (Scientific Data): https://doi.org/10.1038/s41597-022-01865-7
 - The sampling design: Marini et al. (2022), *Long-term automated visual
   monitoring of Antarctic benthic fauna*, Methods in Ecology and Evolution,
